@@ -15,6 +15,7 @@
 		18E63B672215408400469186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E63B662215408400469186 /* main.m */; };
 		18E63B712215408400469186 /* WSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E63B702215408400469186 /* WSDemoTests.m */; };
 		18E63B7C2215408400469186 /* WSDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E63B7B2215408400469186 /* WSDemoUITests.m */; };
+		18E97D00222798D4007F7DEC /* WSWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E97CFF222798D4007F7DEC /* WSWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		18E63B772215408400469186 /* WSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E63B7B2215408400469186 /* WSDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSDemoUITests.m; sourceTree = "<group>"; };
 		18E63B7D2215408400469186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E97CFE222798D4007F7DEC /* WSWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSWebView.h; sourceTree = "<group>"; };
+		18E97CFF222798D4007F7DEC /* WSWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSWebView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				18E63B622215408400469186 /* LaunchScreen.storyboard */,
 				18E63B652215408400469186 /* Info.plist */,
 				18E63B662215408400469186 /* main.m */,
+				18E97CFE222798D4007F7DEC /* WSWebView.h */,
+				18E97CFF222798D4007F7DEC /* WSWebView.m */,
 			);
 			path = WSDemo;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E63B5C2215408200469186 /* ViewController.m in Sources */,
+				18E97D00222798D4007F7DEC /* WSWebView.m in Sources */,
 				18E63B672215408400469186 /* main.m in Sources */,
 				18E63B592215408200469186 /* AppDelegate.m in Sources */,
 			);
@@ -438,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S3EE9P95E7;
 				INFOPLIST_FILE = WSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S3EE9P95E7;
 				INFOPLIST_FILE = WSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
